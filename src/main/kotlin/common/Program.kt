@@ -11,7 +11,7 @@ fun execute(day: String, program: (input: List<String>) -> Program) {
 }
 
 fun executePart(day: String, part: String, partFunction: (input: List<String>) -> String) {
-    val input = FileLoader.readFile("adventofcode2024/day${day}.txt")
+    val input = FileLoader.readFile("adventofcode2025/day${day}.txt")
 
     val startTime = System.currentTimeMillis()
     val resultPart = partFunction(input)
